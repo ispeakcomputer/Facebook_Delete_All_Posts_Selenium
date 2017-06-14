@@ -7,11 +7,17 @@ This script will delete all of your old posts on Facebook. Take your Facebook ba
   the script in to see how manyy posts where deleted.
 
 # Installation on Linux with Python Installed
+
 1.) If you want a virtualenv go ahead and set one up
+
 2.) run "pip install Selenium"
+
 3.) Install or update Chrome Browser
+
 4.) Go grab the the chromedriver for the version of Chrome you have and stick it in your path. I put it in the /usr/bin file
+
 5.) run the script with it in your path with "python facebook_comments_delete.py"
+
 6.) Have fun getting your Facebook profile cleaned !
 
 
