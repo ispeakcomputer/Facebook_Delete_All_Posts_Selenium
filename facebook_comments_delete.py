@@ -1,5 +1,5 @@
 #!/bin/python
-
+import getpass
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -46,7 +46,7 @@ class Facebookkiller():
             print("{} posts have been deleted".format(counter))
 
 if __name__ == "__main__":
-    
+
     username = raw_input("Enter your Facebook username: ")
     password = getpass.getpass("Enter your Facebook password: ")
 
