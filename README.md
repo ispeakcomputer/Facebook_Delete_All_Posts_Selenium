@@ -1,10 +1,9 @@
 # Facebook Cleaner using Selenium and python
 
-This script will delete all of your old posts on Facebook. Take your Facebook back after posting kitten photos or dumb political stuff all these years 
- Keep in mind that if you run into any profile picture updates or you need to expand past years posts into the timeline the script will stop.
- Hide these posts from your timeline are expand the next years posts and restart the script. Fill free to fully automate or add onto the script. It has served
- it purpose for my personal clean up. I hope that it can help some of you.As the script automates the browser on the screen feel free to watch the terminal you ran
-  the script in to see how manyy posts where deleted.
+This script will delete all of your old posts on Facebook. Take your Facebook back after posting kitten photos or dumb political stuff all these years.
+ Keep in mind that if you run into any profile picture update posts or you need to expand a past years posts into the time line the script will stop when you hit that part of your time line.
+ Hide these posts from your timeline or expand the "See more posts" for years previous and restart the script. Fill free to fully automate or add onto the script.See my "improvements" section.
+ for some notes on how I would do this. It has served its purpose for my personal clean up. I hope that it can help some of you.As the script automates the browser on the screen feel free to watch the terminal you ran the script in to see how many posts where deleted. 
 
 # Installation on Linux with Python Installed
 
