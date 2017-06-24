@@ -23,5 +23,5 @@ This script will delete all of your old posts on Facebook. Take your Facebook ba
 # Future Improvements
 
 Catch the "ElementNotVisibleException" exception and then look to hide a post from the time line. If the script fails again
-have it expand by clicking the "See more posts in 201?" button and then trying again. That should fully automate this process.
-All and all the script worked to remove 7 years worth of posts with not much effort.
+have it expand by clicking the "See more posts in 201?" button and then try again. That should fully automate this process.
+All and all the script worked to remove 7 years worth of posts with not much effort. I will try to expand on full automation if I ever get the chance again. I hope you find this useful.
