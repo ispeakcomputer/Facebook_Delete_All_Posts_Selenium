@@ -19,9 +19,15 @@ This script will delete all of your old posts on Facebook. Take your Facebook ba
 
 6.) Have fun getting your Facebook profile cleaned !
 
+7.) I wasn't able to remove all my posts. See the section below. 
 
-# Future Improvements
+
+# Future Improvements 
 
 Catch the "ElementNotVisibleException" exception and then look to hide a post from the time line. If the script fails again
-have it expand by clicking the "See more posts in 201?" button and then try again. That should fully automate this process.
+have it expand more posts by clicking the "See more posts in 201?" button and then try again. That should fully automate this process.
 All and all the script worked to remove 7 years worth of posts with not much effort. I will try to expand on full automation if I ever get the chance again. I hope you find this useful.
+
+# Avoid Banning
+
+It isn't that you will get completely banned but the post's options drop down quits functioning completely after trying to use the script in its current state. Maybe slow it down or change it to only remove a few posts a week? I have tested the drop down and it doesn't work on any browser while using the mobile m.facebook.com so far within my profile no matter what device I use.. It has been this way for two weeks now. I can use the desktop version of the site to remove posts still though the script isn't built for this at this moment. Back to the drawing board!
