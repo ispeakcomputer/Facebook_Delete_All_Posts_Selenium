@@ -1,9 +1,13 @@
 # Facebook Cleaner using Selenium and python
 
 This script will delete all of your old posts on Facebook. Take your Facebook back after posting kitten photos or dumb political stuff all these years.
+
  Keep in mind that if you run into any profile picture update posts or you need to expand a past years posts into the time line the script will stop when you hit that part of your time line.
- Hide these posts from your timeline or expand the "See more posts" for years previous and restart the script. Fill free to fully automate or add onto the script.See my "improvements" section.
- for some notes on how I would do this. It has served its purpose for my personal clean up. I hope that it can help some of you.As the script automates the browser on the screen feel free to watch the terminal you ran the script in to see how many posts where deleted.
+ Hide these posts from your timeline or expand the "See more posts" for years previous and restart the script. 
+ 
+ Fill free to fully automate or add onto the script.See my "improvements" section.
+ 
+ for some notes on how I would do this. It has served its purpose for my personal clean up. I hope that it can help some of you. As the script automates the browser on the screen feel free to watch the terminal you ran the script in to see how many posts where deleted.
 
 # Installation on Linux with Python Installed
 
@@ -27,7 +31,3 @@ This script will delete all of your old posts on Facebook. Take your Facebook ba
 Catch the "ElementNotVisibleException" exception and then look to hide a post from the time line. If the script fails again
 have it expand more posts by clicking the "See more posts in 201?" button and then try again. That should fully automate this process.
 All and all the script worked to remove 7 years worth of posts with not much effort. I will try to expand on full automation if I ever get the chance again. I hope you find this useful.
-
-# Avoid Banning
-
-It isn't that you will get completely banned but the post's options drop down quits functioning completely after trying to use the script in its current state. Maybe slow it down or change it to only remove a few posts a week? I have tested the drop down and it doesn't work on any browser while using the mobile m.facebook.com so far within my profile no matter what device I use.. It has been this way for two weeks now. I can use the desktop version of the site to remove posts still though the script isn't built for this at this moment.Maybe even consider setting the user Agent because if it is set to id Selenium this might be noticed by FaceBook  Back to the drawing board!
